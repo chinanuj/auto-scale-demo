@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+venv/
+ENV/
+
+# Logs
+*.log
+logs/
+scaling.log
+
+# Google Cloud credentials
+*.json
+.gcloud/
+credentials/
+
+# VirtualBox
+*.vbox
+*.vbox-prev
+*.vdi
+.vagrant/
+
+# Ubuntu ISO
+*.iso
+
+# Prometheus data
+prometheus_data/
+
+# Node Exporter data
+node_exporter_data/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build artifacts
+*.tar.gz
